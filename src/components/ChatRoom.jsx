@@ -55,8 +55,6 @@ const ChatRoom = () => {
     dummy.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  console.log(messages);
-
   return (
     <>
       <main>
