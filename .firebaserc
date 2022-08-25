@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "my-app-36ceb"
-  }
+    "default": "my-app-36ceb",
+    "staging": "my-app-36ceb"
+  },
+  "targets": {},
+  "etags": {}
 }

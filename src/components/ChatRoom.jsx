@@ -59,7 +59,7 @@ const ChatRoom = () => {
     <>
       <main>
         {messages &&
-          messages.map((msg) => <ChatMessage key={msg.id} message={msg} />)}
+          messages.map((msg) => <ChatMessage key={msg.uid} message={msg} />)}
 
         <span ref={dummy}></span>
       </main>
